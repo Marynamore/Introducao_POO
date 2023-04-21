@@ -6,15 +6,23 @@ class Aluno extends Pessoa{
 
     private $nota;
 
-    function __construct($nome, $anoNascimento,$nota)
+    public function __construct($nome, $anoNascimento,$nota)
     {
-     parent::__construct($nome,$anoNascimento);
+     parent::__construct($nome,$anoNascimento); //ele faz uma referencia a classe PAI (pessoa->)
      $this->nota = $nota;   
     }
 
-    function mostraDadosovo()
+    public function mostrarDadosNovos()
     {
-        parent::mostraDadoovo();
+        parent::mostrarDadoNovo();
         echo "<p>Nome: $this->nota</p>";
+    }
+
+    function getNota(){
+        return $this->nota;
+    }
+
+    function setNota($nota){
+        $this->nota = $nota;
     }
 }
