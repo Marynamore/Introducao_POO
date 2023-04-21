@@ -1,8 +1,8 @@
 <h1> Programação Orientada a Objeto com PHP</h1>
 <hr>
-<h3> Uma das características mais importantes da linguagem PHP é a Programação Orientada a Objeto(POO), que ajuda a criar código organizado e escalável.</h3>
+<p> Uma das características mais importantes da linguagem PHP é a Programação Orientada a Objeto(POO), que ajuda a criar código organizado e escalável.</p>
 
-Neste texto, vamos explorar a POO em PHP de forma divertida e didática. Vamos lá!
+Observação: Neste artigo irei utilizar a linguagem PHP como exemplo, mas a essência é a mesma em outras linguagens, só mudando um a sintaxe.
 <hr>
 
 ### Objetivo: 
@@ -15,8 +15,9 @@ Neste texto, vamos explorar a POO em PHP de forma divertida e didática. Vamos l
 
 :large_blue_diamond:A POO é um paradigma de programação que baseia-se em conceitos de classes e objetos.
 
-![Objeto_POOO](https://user-images.githubusercontent.com/86386469/233681305-ea1d44b0-6308-4414-90b8-c7a1757abc2d.jpg)
-![classe_POO](https://user-images.githubusercontent.com/86386469/233681339-e16084a0-4d01-43f3-bb37-4d28391990b6.jpg)
+![Objeto_POOO](https://user-images.githubusercontent.com/86386469/233682930-0994c6f8-314c-48f3-9558-f59466273698.jpg)
+![classe_POO](https://user-images.githubusercontent.com/86386469/233682943-3454b669-be6b-46c2-877a-aaf45238b2ab.jpg)
+
 
 <br>
 
@@ -69,7 +70,7 @@ ATRIBUTO | METODO | CONSTRUTORES
 Atributos são as características de uma classe, eles vão definir como uma classe é, no exemplo anterior, são características como: nome, ano | Métodos são os comportamentos da classe, no nosso caso é função que pessoa deva fazer: Mostrar dados novos | Métodos construtores são métodos especiais que são acionados no momento de criação da classe. Quando utilizamos o new para criar a classe.
 
 :paperclip: Temos um novo conceito apresentado aqui. Trata-se da ***pseudo-variável*** $this, que serve basicamente para diferenciar as propriedades do objeto de variáveis locais. Lembre-se, $this referencia o objeto ATUAL e acessa suas propriedades.
----:
+:---:
 
 ## Objetos:
 :pushpin: Um objeto contém exatamente a mesma estrutura e as propriedades de uma classe, no entanto sua estrutura é dinâmica, seus atributos podem mudar de valor durante a execução do programa e podemos declarar diversos objetos oriundos de uma mesma classe.
