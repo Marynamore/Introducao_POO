@@ -11,7 +11,7 @@
 
 <br>
 
-A POO se concentra em criar objetos que encapsulam dados e comportamentos, o que ajuda a tornar o código mais organizado e fácil de entender. Mas o que isso realmente significa? Imagine que você está construindo uma casa. Você não gostaria de manter todas as ferramentas e materiais organizados em suas respectivas áreas, como uma caixa de ferramentas e uma prateleira de madeira? Isso é semelhante a como a POO funciona em Swift - você pode encapsular dados e comportamentos relacionados em uma classe, tornando o código mais fácil de ler e entender.
+A POO se concentra em criar objetos que encapsulam dados e comportamentos, o que ajuda a tornar o código mais organizado e fácil de entender. Mas o que isso realmente significa? Imagine que você está construindo uma casa. Você não gostaria de manter todas as ferramentas e materiais organizados em suas respectivas áreas, como uma caixa de ferramentas e uma prateleira de madeira? Isso é semelhante a como a POO funciona no PHP - você pode encapsular dados e comportamentos relacionados em uma classe, tornando o código mais fácil de ler e entender.
 
 
 ## Classes:
