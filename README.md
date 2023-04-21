@@ -15,6 +15,9 @@ Neste texto, vamos explorar a POO em PHP de forma divertida e didática. Vamos l
 
 :large_blue_diamond:A POO é um paradigma de programação que baseia-se em conceitos de classes e objetos.
 
+![Objeto_POOO](https://user-images.githubusercontent.com/86386469/233681305-ea1d44b0-6308-4414-90b8-c7a1757abc2d.jpg)
+![classe_POO](https://user-images.githubusercontent.com/86386469/233681339-e16084a0-4d01-43f3-bb37-4d28391990b6.jpg)
+
 <br>
 
 ## Classes:
