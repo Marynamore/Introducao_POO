@@ -66,7 +66,7 @@ class Pessoa{
 ?>
 ```
 ATRIBUTO | METODO | CONSTRUTORES
-:---: | :---: | :---:
+:---: | :---: | :---: 
 Atributos são as características de uma classe, eles vão definir como uma classe é, no exemplo anterior, são características como: nome, ano | Métodos são os comportamentos da classe, no nosso caso é função que pessoa deva fazer: Mostrar dados novos | Métodos construtores são métodos especiais que são acionados no momento de criação da classe. Quando utilizamos o new para criar a classe.
 
 :paperclip: Temos um novo conceito apresentado aqui. Trata-se da ***pseudo-variável*** $this, que serve basicamente para diferenciar as propriedades do objeto de variáveis locais. Lembre-se, $this referencia o objeto ATUAL e acessa suas propriedades.
