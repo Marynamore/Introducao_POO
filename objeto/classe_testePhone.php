@@ -1,6 +1,6 @@
 <?php
 //testePhone.php
-require_once "Smartphone.php";
+require_once "../classe/classe_smartphone.php";
 $zenfone = new Smartphone("Zenfone X2","Asus","Android 10");
 $Aifone  = new Smartphone("Iphone x20","Apple","IOS 10");
 $Aifone->numero= "061999-9982";
