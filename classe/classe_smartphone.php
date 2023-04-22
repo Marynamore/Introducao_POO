@@ -7,8 +7,8 @@ class Smartphone{
     public $numero;
     public $ocupado;
 
-    public function __construct($mo,$fab,$so)
-    {   //método construtor
+    //método construtor
+    public function __construct($mo,$fab,$so){   
         $this->modelo = $mo;
         $this->fabricante = $fab;
         $this->SO = $so;
@@ -16,6 +16,7 @@ class Smartphone{
         $this->ocupado =false;
         echo "<br> Smartphone ".$this->modelo." Fabricado !<br>";
     }//fim construtor
+
     function ligar(Smartphone $outroFone){
         if($outroFone->ocupado==false){
             echo "<br>Esta ligando para :".$outroFone->numero."<br>";
@@ -24,10 +25,12 @@ class Smartphone{
         }
 
     }//fim do método ligar
+
     public function __destruct()
     {
         echo "<br> O telefone :".$this->modelo." foi destruido !<br>";
     }//fim do metodo destruct
+
 }//fim classe smartphone
 //não precisa copiar
 /*

@@ -1,6 +1,12 @@
 <?php
-//classe_testeUsuario.php
+/**
+ * include      => inclui mesmo com erros
+ * require      => interrompe se tiver erros
+ * include_once => inclui uma vez
+ * require_once => inclui uma vez
+*/
 require_once "../classe/classe_usuario.php";
+
 $usuario  = new Usuario("Alguem da Silva","a.silva");
 $usuario->verificar();
 
