@@ -25,42 +25,50 @@ Observação: Neste artigo irei utilizar a linguagem PHP como exemplo, mas a ess
 :pushpin: O conceito de classe nada mais é do que uma estrutura que define uns tipos de dados, podendo conter variáveis (chamaremos de atributos) e também funções (chamaremos de métodos). Classes manipulam definições e objetos manipulam valores.
 
 ```php
-<?php 
-
+<?php
 //Atributo Privado
-class Pessoa{
-    private $nome;
-    private $anoNascimento;
-    
-//Método construtor
-    function __construct($nome, $anoNascimento)
-    {
-      $this->nome = $nome;
-      $this->anoNascimento = $anoNascimento;   
+class Lampada{
+    public $cor;
+    public $ligada;
+
+    //Método construtor
+    public function __construct($cor){
+        $this->cor=$cor;
+        $this->ligada=false;
+        echo "<div style='color:".$this->cor."'>";
+        echo "Uma lampada foi criada !</div><br>";
     }
-    
-//Metodo => função
-    function mostrarDadoNovo(){
-        echo "<p>Nome: $this->nome</p>";
-        echo "<p>Ano de Nascimento $this->anoNascimento</p>";
+
+    //Metodo => função
+    function Ligar(){
+        if($this->ligada){
+            echo "A lampada ja esta ligada";
+        }else{
+            echo "<div style='width:100%;
+               height:100%;background-color:".$this->cor."'></div>";
+            $this->ligada= true;
+        }
     }
-   
-// Metodos acessores de cada atributo
-    function getNome(){
-        return $this->nome;
+
+    // Metodos acessores de cada atributo
+    function getCor(){
+        return $this->cor;
     }//pegamos os atributos privados e mostramos
 
-    function getAnoNascimento(){
-        return $this->anoNascimento;
+    function getLigada(){
+        return $this->ligada;
+    }
+    function setCor($cor){
+        $this->cor = $cor;
+    }//setamos os atributos privados
+    
+    function setLigar($ligada){
+        $this->ligada = $ligada;
     }
 
-    function setNome($nome){
-        $this->nome = $nome;
-    }//setamos os atributos privados
-
-
-    function setAnoNascimento($anoNascimento){
-        $this->anoNascimento = $anoNascimento;
+    //Método desconstrutor
+    public function __destruct(){
+        echo "<br>Lampada ".$this->cor." destruida !<br> ";
     }
 }
 ?>
