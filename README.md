@@ -104,4 +104,4 @@ $luz->Ligar();
 $luz2->Ligar();
 ?>
 ```
-
+Saiba mais sobre os pilares da POO em PHP: https://github.com/Marynamore/Pilares-de-POO_Heranca
